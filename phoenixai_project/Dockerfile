@@ -15,8 +15,6 @@ COPY apiKey.js ./
 
 COPY test/ ./test/
 
-# Exposer le port que votre application utilise (par exemple, 3000 pour Express)
-EXPOSE 3000
 
 # Définir la commande par défaut pour exécuter l'application
 CMD [ "node", "index.js" ]

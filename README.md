@@ -31,7 +31,7 @@ Cette application Express permet de redimensionner des images en utilisant la bi
 
 ## Lancer le conteneur
 
-- docker run image-resizer
+- docker run -p 3000:3000 image-resizer
 
 ## Lancer les tests
 
